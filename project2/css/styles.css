@@ -1,4 +1,6 @@
-h1 {
+
+h1, h2, h3 {
+	font-family: 'oswald', sans-serif; /* Added font family "Oswald" to HTML as instructed by Google Fonts. Set to normal 400. */
 	color: #00387F;
 	text-shadow: 2px 2px #0071FF;
 	text-align: center;
@@ -10,11 +12,20 @@ body {
 	background-color: #4C9BFF;
 }
 ul {
+	text-align: center;
+	list-style-type: none;
+	
+}
+li {
 	display: inline-block;
-	list-style-type: none;	
+	background-color: #005ACC;
+	padding: 6px 6px;
+	box-shadow: 3px 3px;
+	border-radius: 8px 8px;
 }
 a:link {
-	text-decoration: none;	
+	text-decoration: none;
+	color: #000000	
 }
 a:hover {
 	font-size: 1.1em;
