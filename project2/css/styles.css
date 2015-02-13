@@ -1,20 +1,20 @@
 
-h1 {
+h1 { /*Style and Layout*/
 	font-family: 'oswald', sans-serif; /* Added font family "Oswald" to HTML as instructed by Google Fonts. Set to normal 400. */
 	color: #00387F;
 	text-shadow: 2px 2px #0071FF;
 	font-size: 2.3em;
 }
-h2, h3 {
+h2, h3 { /*Style and Layout*/
 	font-family: 'oswald', sans-serif; /* Added font family "Oswald" to HTML as instructed by Google Fonts. Set to normal 400. */
 	color: #00387F;
 	text-shadow: 2px 2px #0071FF;
 }
-p {
+p { /*Style*/
 	text-align: left;
 	font-size: 1.1em
 }
-body {
+body {/*Layout*/
 	width:960px;
 	margin: 15px auto 15px auto;
 	text-align: center;
@@ -24,7 +24,7 @@ body {
 	border-radius: 10px 10px;
 	box-shadow: 3px 3px;
 }
-li {
+li { /*Navigation and Layout*/
 	list-style-type: none;
 	display: inline-block;
 	background-color: #005ACC;
@@ -33,47 +33,47 @@ li {
 	box-shadow: 3px 3px;
 	border-radius: 8px 8px;
 }
-a:link {
+a:link { /*Navigation and style*/
 	text-decoration: none;
 	color: #000000;	
 }
-a:hover {
+a:hover { /*Style*/
 	color: #FFFFFF;
 }
-a:visited{
+a:visited{ /*Style*/
 	color: #4E5B6B;
 }
-a:active{
+a:active{ /*Style*/
 	color: #FFFFFF;
 }
-#eclips, #cessna, #honda, #airbus {
+#eclips, #cessna, #honda, #airbus { /*Style and Layout*/
 	text-align: center;
 	display: block;
 	border: 3px solid #000000;
 	border-radius: 4px 4px;
 	padding: 5px 5px;
 }
- img {
+ img { /*Style and layout*/
 	padding: 15px 15px;
 	border: 3px solid #000000;
 	border-radius: 3px 3px;
 	box-shadow: 2px 2px #4E5B6B;
 }
-figcaption {
+figcaption { /*Style*/
 	font-family: 'oswald', sans-serif;
 }
-blockquote {
+blockquote { /*Style*/
 	padding: 5px;
 	border: 3px solid #000000;
 	background-color: #00387F	
 
 }
-#intro {
+#intro { /*Style*/
 	font-family: 'oswald', sans-serif;
 	font-size: 1.4em;
 	text-align: center;
 }
-#w3c {
+#w3c { /*Just Because*/
 	padding: 15px 15px;
 	text-align: right;
 }
