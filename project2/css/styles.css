@@ -1,48 +1,50 @@
+
 h1 {
 	font-family: 'oswald', sans-serif; /* Added font family "Oswald" to HTML as instructed by Google Fonts. Set to normal 400. */
 	color: #00387F;
 	text-shadow: 2px 2px #0071FF;
-	text-align: center;
 	font-size: 2.3em;
 }
 h2, h3 {
 	font-family: 'oswald', sans-serif; /* Added font family "Oswald" to HTML as instructed by Google Fonts. Set to normal 400. */
 	color: #00387F;
 	text-shadow: 2px 2px #0071FF;
-	text-align: center;
 }
 p {
 	text-align: left;
 	font-size: 1.1em
 }
 body {
+	width:960px;
+	margin: 15px auto 15px auto;
 	text-align: center;
 	background: #5D6C7F;
 	padding: 15px;
-	border: 3px solid #000000;
+	border: 3px solid #005ACC;
 	border-radius: 10px 10px;
-	
-}
-ul {
-	text-align: center;
-	list-style-type: none;
-	
+	box-shadow: 3px 3px;
 }
 li {
+	list-style-type: none;
 	display: inline-block;
 	background-color: #005ACC;
-	padding: 6px 6px 6px 6px;
+	padding: 6px 16px 6px 16px;
 	margin:2px 2px;
 	box-shadow: 3px 3px;
 	border-radius: 8px 8px;
 }
 a:link {
 	text-decoration: none;
-	color: #000000	
+	color: #000000;	
 }
 a:hover {
-	font-size: 1.1em;
-	color: #FFFFFF
+	color: #FFFFFF;
+}
+a:visited{
+	color: #4E5B6B;
+}
+a:active{
+	color: #FFFFFF;
 }
 #eclips, #cessna, #honda, #airbus {
 	text-align: center;
@@ -69,4 +71,5 @@ blockquote {
 #intro {
 	font-family: 'oswald', sans-serif;
 	font-size: 1.4em;
+	text-align: center;
 }
