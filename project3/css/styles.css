@@ -6,19 +6,17 @@ h1 { /*Style and Layout*/
 	color: #0071FF;
 	text-shadow: 2px 2px #00387F;
 	font-size: 2.3em;
+	border: 3px solid #000000;
+	padding: 2%;
+	background: url(../images/armored.gif) repeat;
 }
-h2 { /*Style and Layout*/
+h2, h3 { /*Style and Layout*/
 	font-family: 'oswald', sans-serif; /* Added font family "Oswald" to HTML as instructed by Google Fonts. Set to normal 400. */
 	color: #0071FF;
 	text-shadow: 2px 2px #00387F;
 	border: 3px solid #000000;
-	background-color: linear-gradient (#5D6C7F, #000000);
-}
-h3 { /*Style and Layout*/
-	font-family: 'oswald', sans-serif; /* Added font family "Oswald" to HTML as instructed by Google Fonts. Set to normal 400. */
-	color: #0071FF;
-	text-shadow: 2px 2px #00387F;
-	border: 3px solid #000000;
+	background: linear-gradient(#5D6C7F, #000000);
+
 }
 p { /*Style*/
 	text-align: left;
