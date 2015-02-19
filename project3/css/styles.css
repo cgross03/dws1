@@ -1,16 +1,24 @@
-
+body {
+	background: url(../images/cessna.jpg) no-repeat fixed center;
+}
 h1 { /*Style and Layout*/
 	font-family: 'oswald', sans-serif; /* Added font family "Oswald" to HTML as instructed by Google Fonts. Set to normal 400. */
 	color: #0071FF;
 	text-shadow: 2px 2px #00387F;
 	font-size: 2.3em;
 }
-h2, h3 { /*Style and Layout*/
+h2 { /*Style and Layout*/
 	font-family: 'oswald', sans-serif; /* Added font family "Oswald" to HTML as instructed by Google Fonts. Set to normal 400. */
 	color: #0071FF;
 	text-shadow: 2px 2px #00387F;
 	border: 3px solid #000000;
-	background-color: rgba(93, 108, 127, 0.9);
+	background-color: linear-gradient (#5D6C7F, #000000);
+}
+h3 { /*Style and Layout*/
+	font-family: 'oswald', sans-serif; /* Added font family "Oswald" to HTML as instructed by Google Fonts. Set to normal 400. */
+	color: #0071FF;
+	text-shadow: 2px 2px #00387F;
+	border: 3px solid #000000;
 }
 p { /*Style*/
 	text-align: left;
@@ -19,18 +27,16 @@ p { /*Style*/
 	border: 3px solid #000000;
 	background-color: rgba(0, 113, 255, 0.8);
 }
-body {/*Layout*/
+#wrapper {/*Layout*/
 	width:960px;
-	margin: 15px auto 15px auto;
+	background-color: rgba(93, 108, 127, 0.8);
+	margin: 2% auto 2% auto;
 	text-align: center;
-	background-image: url("../images/cessna.jpg");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: top center;
 	padding: 2%;
 	border: 3px solid #005ACC;
 	border-radius: 10px 10px;
 	box-shadow: 3px 3px;
+	overflow: auto;
 }
 li { /*Navigation and Layout*/
 	display: inline-block;
@@ -38,7 +44,7 @@ li { /*Navigation and Layout*/
 	list-style-type: none;
 	background-color: rgba(0, 113, 255, 0.8);
 	padding: 1% 2%;
-	margin:2px 2px;
+	margin: .5% .5%;
 	box-shadow: 3px 3px;
 	border-radius: 8px 8px;
 }
@@ -64,7 +70,7 @@ a:active{ /*Style*/
 	background-color: rgba(93, 108, 127, 0.9);
 }
 img { /*Style and layout*/
-	padding: 15px 15px;
+	padding: 2% 2%;
 	border: 3px solid #000000;
 	border-radius: 3px 3px;
 	background-color: rgba(93, 108, 127, 0.8);
@@ -85,8 +91,28 @@ blockquote { /*Style*/
 	font-size: 1.4em;
 	text-align: center;
 }
-#w3c { /*Just Because*/
-	display: inline-block;
-	float: right;
-	background-color: rgba(93, 108, 127, 0.1);
+#one {
+	float: left;
+	width: 48%;
+	margin: 1%;
 }
+#two {
+	float: left;
+	width: 48%;
+	margin: 1%;
+}
+#three {
+	float: left;
+	width: 48%;
+	margin: 1%;
+}
+#four {
+	float: left;
+	width: 48%;
+	margin: 1%;
+}
+#footer {
+	clear: left;
+	margin: 1%;
+}
+
