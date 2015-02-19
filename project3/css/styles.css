@@ -16,7 +16,12 @@ h2, h3 { /*Style and Layout*/
 	text-shadow: 2px 2px #00387F;
 	border: 3px solid #000000;
 	background: linear-gradient(#5D6C7F, #000000);
-
+	clear: right;
+}
+#intro { /*Style*/
+	font-family: 'oswald', sans-serif;
+	font-size: 1.4em;
+	text-align: center;
 }
 p { /*Style*/
 	text-align: left;
@@ -26,7 +31,7 @@ p { /*Style*/
 	background-color: rgba(0, 113, 255, 0.7);
 }
 #wrapper {/*Layout*/
-	width:960px;
+	width: 85%;
 	background-color: rgba(93, 108, 127, 0.5);
 	margin: 2% auto 2% auto;
 	text-align: center;
@@ -73,6 +78,7 @@ img { /*Style and layout*/
 	border-radius: 3px 3px;
 	background-color: rgba(93, 108, 127, 0.8);
 	margin: 2%;
+	width: auto;
 }
 figcaption { /*Style*/
 	font-family: 'oswald', sans-serif;
@@ -84,10 +90,8 @@ blockquote { /*Style*/
 	padding: 2%;
 
 }
-#intro { /*Style*/
-	font-family: 'oswald', sans-serif;
-	font-size: 1.4em;
-	text-align: center;
+#text {
+
 }
 #one {
 	float: left;
