@@ -18,11 +18,6 @@ h2, h3 { /*Style and Layout*/
 	background: linear-gradient(#5D6C7F, #000000);
 	clear: right;
 }
-#intro { /*Style*/
-	font-family: 'oswald', sans-serif;
-	font-size: 1.4em;
-	text-align: center;
-}
 p { /*Style*/
 	text-align: left;
 	font-size: 1.1em;
@@ -30,22 +25,21 @@ p { /*Style*/
 	border: 3px solid #000000;
 	background-color: rgba(0, 113, 255, 0.7);
 }
-#wrapper {/*Layout*/
-	width: 85%;
-	background-color: rgba(93, 108, 127, 0.5);
-	margin: 2% auto 2% auto;
-	text-align: center;
+figcaption { /*Style*/
+	font-family: 'oswald', sans-serif;
+	padding: 1%;
+	border: 3px solid #000000;
+	background-color: rgba(0, 113, 255, 0.7);
+}
+blockquote { /*Style*/
 	padding: 2%;
-	border: 3px solid #005ACC;
-	border-radius: 10px 10px;
-	box-shadow: 3px 3px;
-	overflow: auto;
+
 }
 li { /*Navigation and Layout*/
 	display: inline-block;
 	list-style: none;
 	list-style-type: none;
-	background-color: rgba(0, 113, 255, 0.8);
+	background-color: rgba(0, 113, 255, 0.7);
 	padding: 1% 2%;
 	margin: .5% .5%;
 	box-shadow: 3px 3px;
@@ -59,10 +53,29 @@ a:hover { /*Style*/
 	color: #FFFFFF;
 }
 a:visited{ /*Style*/
-	color: #4E5B6B;
+	color: #343D47;
 }
 a:active{ /*Style*/
 	color: #FFFFFF;
+}
+img { /*Style and layout*/
+	padding: 2% 2%;
+	border: 3px solid #000000;
+	border-radius: 3px 3px;
+	background-color: rgba(93, 108, 127, 0.5);
+	margin: 2%;
+	width: auto;
+}
+#wrapper {/*Layout*/
+	width: 85%;
+	background-color: rgba(93, 108, 127, 0.5);
+	margin: 2% auto 2% auto;
+	text-align: center;
+	padding: 2%;
+	border: 3px solid #005ACC;
+	border-radius: 10px 10px;
+	box-shadow: 3px 3px;
+	overflow: auto;
 }
 #eclipse, #cessna, #honda, #airbus { /*Style and Layout*/
 	text-align: center;
@@ -72,26 +85,17 @@ a:active{ /*Style*/
 	padding: 1% 1%;
 	background-color: rgba(93, 108, 127, 0.9);
 }
-img { /*Style and layout*/
-	padding: 2% 2%;
-	border: 3px solid #000000;
-	border-radius: 3px 3px;
-	background-color: rgba(93, 108, 127, 0.8);
-	margin: 2%;
-	width: auto;
+#intro { /*Style*/
+	background-color: rgba(0, 113, 255, 0.7);
+	background-image: url(../images/world.png);
+	background-repeat: no-repeat;
 }
-figcaption { /*Style*/
-	font-family: 'oswald', sans-serif;
-	padding: 1%;
-	border: 3px solid #000000;
-	background-color: rgba(0, 113, 255, 0.8);
-}
-blockquote { /*Style*/
-	padding: 2%;
-
-}
-#text {
-
+.text {
+	border: 3px solid #000;
+	font-family:'oswald', sans-serif;
+	font-size: 1.35em;
+	padding: 1.2% 0% 1.2% 10%;
+	
 }
 #one {
 	float: left;
