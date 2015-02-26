@@ -16,7 +16,7 @@ h2, h3 { /*Style and Layout*/
 	text-shadow: 2px 2px #00387F;
 	border: 3px solid #000000;
 	background: linear-gradient(#5D6C7F, #000000);
-	clear: right;
+	clear: both;
 }
 p { /*Style*/
 	text-align: left;
@@ -119,6 +119,21 @@ img { /*Style and layout*/
 	margin: 1%;
 }
 footer {
-	clear: left;
 	margin: 1%;
 }
+table {
+	font-family:'oswald', sans-serif;
+	font-size: 1.35em;
+	border: 3px solid #000000;
+	border-radius: 4px 4px;
+}
+#rowone, #rowthree, #rowfive {
+	background-color: rgba(93, 108, 127, 0.5);
+}
+#rowtwo, #rowfour {
+	background-color: rgba(0, 113, 255, 0.7);
+}
+#rowtwo:hover, #rowthree:hover, #rowfour:hover, #rowfive:hover {
+	background-color: rgba(76, 155, 255, .8);
+}
+
