@@ -126,6 +126,7 @@ table {
 	font-size: 1.35em;
 	border: 3px solid #000000;
 	border-radius: 4px 4px;
+	margin:0 auto;
 }
 #rowone, #rowthree, #rowfive {
 	background-color: rgba(93, 108, 127, 0.5);
@@ -135,5 +136,8 @@ table {
 }
 #rowtwo:hover, #rowthree:hover, #rowfour:hover, #rowfive:hover {
 	background-color: rgba(76, 155, 255, .8);
+}
+th {
+	text-align: left;
 }
 
