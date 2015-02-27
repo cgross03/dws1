@@ -151,7 +151,7 @@
 				<fieldset>
 					<ledgend>Please take a few minutes to leave us some feedback to improve our site. Thank you for visiting!</ledgend>
 						<p class="formcenter">
-							<label for="name">Whats your name?</label> <input type="text" name="name" 
+							<label for="name">Whats your name?</label> <input required="required" type="text" name="name" 
 							id="name" />
 						</p>
 						<p class="formcenter">
@@ -213,15 +213,15 @@
 						<p class="formcenter">
 							<label for="information" class="information">Did you find the information useful?
 							</label>
-							<input type="radio" name="info" value="yes" checked="checked">Yes </input>
-							<input type="radio" name="info" value="no">No </input>
+							<input type="radio" name="info" value="yes" required="required">Yes </input>
+							<input type="radio" name="info" value="no" required="required">No </input>
 						</p>
 						<p class="formcenter">
 							<label for="feedback" class="feedback">Comments or Suggestions? </label>
 							<textarea name="feedback">Enter text... </textarea>
 						</p>
 						<p class="formcenter">
-							<label for="submit" id="submit">Submit your feedback: </label>
+							<label for="submit" id="submit" >Submit your feedback: </label>
 							<input type="submit" value="submit" />
 						</p>
 							

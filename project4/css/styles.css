@@ -40,10 +40,12 @@ li { /*Navigation and Layout*/
 	list-style: none;
 	list-style-type: none;
 	background-color: rgba(0, 113, 255, 0.7);
-	padding: 1% 2%;
+	padding: 1% 5%;
 	margin: .5% .5%;
 	box-shadow: 3px 3px;
 	border-radius: 8px 8px;
+	font-family:'oswald', sans-serif;
+	font-size: 1em;
 }
 a:link { /*Navigation and style*/
 	text-decoration: none;
@@ -118,6 +120,10 @@ img { /*Style and layout*/
 	width: 48%;
 	margin: 1%;
 }
+#info {
+	font-family:'oswald', sans-serif;
+	font-size: 1em;
+}
 table {
 	font-family:'oswald', sans-serif;
 	font-size: 1.35em;
@@ -167,6 +173,9 @@ footer {
 }
 .formcenter {
 	text-align: center;
+}
+:focus{
+	outline-color: #323A45
 }
 
 
