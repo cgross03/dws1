@@ -94,7 +94,7 @@ img { /*Style and layout*/
 	border: 3px solid #000;
 	font-family:'oswald', sans-serif;
 	font-size: 1.35em;
-	padding: 1.2% 0% 1.2% 13%;
+	padding: 1.2% 1.2% 1.2% 130px;
 	margin-top: 1%;
 	
 }
@@ -123,8 +123,8 @@ table {
 	font-size: 1.35em;
 	border: 3px solid #000000;
 	border-radius: 4px 4px;
-	margin:0 auto;
-	box-shadow: 3px 3px;
+	width: 80%;
+	margin: 0 auto;
 }
 #rowone, #rowthree, #rowfive {
 	background-color: rgba(93, 108, 127, 0.5);
@@ -146,15 +146,18 @@ td {
 }
 fieldset {
 	border: 0px;
+	padding: 0 10%;
 }
 form {
-	margin-top: 3%;
-	display: inline-block;
-	width: 50%;
-	background-color: rgba(93, 108, 127, 0.5);
+	font-family:'oswald', sans-serif;
+	font-size: 1em;
 	border: 3px solid #000000;
 	border-radius: 4px 4px;
-	border-collapse: collapse;
+	width: 55%;
+	margin: 0 auto;
+	background-color: rgba(93, 108, 127, 0.5);
+	text-align: center;
+	
 }
 ledgend {
 	padding: .5%; 
@@ -162,7 +165,9 @@ ledgend {
 footer {
 	margin: 1%;
 }
-
+.formcenter {
+	text-align: center;
+}
 
 
 
