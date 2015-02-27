@@ -1,0 +1,190 @@
+body {
+	background: url(../images/dark-canvas.gif) repeat fixed;
+}
+header { /*Style and Layout*/
+	font-family: 'oswald', sans-serif; /* Added font family "Oswald" to HTML as instructed by Google Fonts. Set to normal 400. */
+	color: #0071FF;
+	text-shadow: 2px 2px #00387F;
+	font-size: 2.3em;
+	border: 3px solid #000000;
+	padding: 2%;
+	background: url(../images/armored.gif) repeat;
+}
+h2, h3 { /*Style and Layout*/
+	font-family: 'oswald', sans-serif; /* Added font family "Oswald" to HTML as instructed by Google Fonts. Set to normal 400. */
+	color: #0071FF;
+	text-shadow: 2px 2px #00387F;
+	border: 3px solid #000000;
+	background: linear-gradient(#5D6C7F, #000000);
+	clear: both;
+}
+p { /*Style*/
+	text-align: left;
+	font-size: 1.1em;
+	padding: 2%;
+	border: 3px solid #000000;
+	background-color: rgba(0, 113, 255, 0.7);
+}
+figcaption { /*Style*/
+	font-family: 'oswald', sans-serif;
+	padding: 1%;
+	border: 3px solid #000000;
+	background-color: rgba(0, 113, 255, 0.7);
+}
+blockquote { /*Style*/
+	padding: 2%;
+
+}
+li { /*Navigation and Layout*/
+	display: inline-block;
+	list-style: none;
+	list-style-type: none;
+	background-color: rgba(0, 113, 255, 0.7);
+	padding: 1% 5%;
+	margin: .5% .5%;
+	box-shadow: 3px 3px;
+	border-radius: 8px 8px;
+	font-family:'oswald', sans-serif;
+	font-size: 1em;
+}
+a:link { /*Navigation and style*/
+	text-decoration: none;
+	color: #000000;	
+}
+a:hover { /*Style*/
+	color: #FFFFFF;
+}
+a:visited{ /*Style*/
+	color: #343D47;
+}
+a:active{ /*Style*/
+	color: #FFFFFF;
+}
+img { /*Style and layout*/
+	padding: 2% 2%;
+	border: 3px solid #000000;
+	border-radius: 3px 3px;
+	background-color: rgba(93, 108, 127, 0.5);
+	margin: 2%;
+	width: auto;
+}
+#wrapper {/*Layout*/
+	width: 85%;
+	background-color: rgba(93, 108, 127, 0.5);
+	margin: 2% auto 2% auto;
+	text-align: center;
+	padding: 2%;
+	border: 3px solid #005ACC;
+	border-radius: 10px 10px;
+	box-shadow: 3px 3px;
+	overflow: auto;
+}
+#eclipse, #cessna, #honda, #airbus { /*Style and Layout*/
+	text-align: center;
+	display: block;
+	border: 3px solid #000000;
+	border-radius: 4px 4px;
+	padding: 1% 1%;
+	background-color: rgba(93, 108, 127, 0.9);
+}
+#intro { /*Style*/
+	background-color: rgba(0, 113, 255, 0.7);
+	background-image: url(../images/world.png);
+	background-repeat: no-repeat;
+}
+#text {
+	border: 3px solid #000;
+	font-family:'oswald', sans-serif;
+	font-size: 1.35em;
+	padding: 1.2% 1.2% 1.2% 130px;
+	margin-top: 1%;
+	
+}
+#one {
+	float: left;
+	width: 48%;
+	margin: 1%;
+}
+#two {
+	float: left;
+	width: 48%;
+	margin: 1%;
+}
+#three {
+	float: left;
+	width: 48%;
+	margin: 1%;
+}
+#four {
+	float: left;
+	width: 48%;
+	margin: 1%;
+}
+#info {
+	font-family:'oswald', sans-serif;
+	font-size: 1em;
+}
+table {
+	font-family:'oswald', sans-serif;
+	font-size: 1.35em;
+	border: 3px solid #000000;
+	border-radius: 4px 4px;
+	width: 80%;
+	margin: 0 auto;
+}
+#rowone, #rowthree, #rowfive {
+	background-color: rgba(93, 108, 127, 0.5);
+}
+#rowtwo, #rowfour {
+	background-color: rgba(0, 113, 255, 0.7);
+}
+#rowtwo:hover, #rowthree:hover, #rowfour:hover, #rowfive:hover {
+	background-color: rgba(76, 155, 255, .8);
+}
+th {
+	text-align: left;
+	padding: 1%;
+	border: 1px solid #000;
+	text-align: right;
+}
+td {
+	border: 1px solid #000;
+}
+fieldset {
+	border: 0px;
+	padding: 0 10%;
+}
+form {
+	font-family:'oswald', sans-serif;
+	font-size: 1em;
+	border: 3px solid #000000;
+	border-radius: 4px 4px;
+	width: 55%;
+	margin: 0 auto;
+	background-color: rgba(93, 108, 127, 0.5);
+	text-align: center;
+	
+}
+ledgend {
+	padding: .5%; 
+}
+footer {
+	margin: 1%;
+}
+.formcenter {
+	text-align: center;
+}
+:focus{
+	outline-color: #323A45
+}
+
+
+
+
+
+
+
+
+
+
+
